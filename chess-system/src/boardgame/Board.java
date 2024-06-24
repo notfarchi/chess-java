@@ -48,7 +48,7 @@ public class Board {
         if (!positionExists(position)) {
             throw new BoardException("Posicao nao esta no tabuleiro!");
         }
-        if (piece(positon) == null) {
+        if (piece(position) == null) {
             return null;
         }
         Piece aux = piece(position);
